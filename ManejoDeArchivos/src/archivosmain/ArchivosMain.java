@@ -20,7 +20,7 @@ public class ArchivosMain {
          //ManejoDeArchivos.escribirArchivo(nombreArchivo, "ha");
          
          ManejoDeArchivos.agregarArchivo(nombreArchivo, "Jesus");
-         //ManejoDeArchivos.leerArchivo(nombreArchivo);
-         ManejoDeArchivos.leerArchivoPorPalabra(nombreArchivo);
+         ManejoDeArchivos.leerArchivo(nombreArchivo);
+         //ManejoDeArchivos.leerArchivoPorPalabra(nombreArchivo);
      }
 }

@@ -50,7 +50,6 @@ public class ManejoDeArchivos {
     }
     
     //Este metodo agrega texto en el archivo, no sobreescrito
-    //No sirve
     public static void agregarArchivo(String nombre, String contenido){
         PrintWriter salida = null;
         File archivo = new File(nombre);
